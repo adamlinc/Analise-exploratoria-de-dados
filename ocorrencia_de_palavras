@@ -1,0 +1,29 @@
+#Importando as bibliotecas
+import pandas as pd
+import numpy as np
+import matplotlib
+import seaborn as sns
+from collections import Counter
+import sys
+
+#Importando o arquivo que se encontra na mesma pasta do script
+#dataset2 = pd.read_csv('Abertos_Marco.csv', sep=';')
+f = open(\"Abertos_Marco.txt\", encoding=\"ISO-8859-1\")
+data = f.pd-read()
+#f.close()
+#print (data)
+
+def count_words(f):
+#Metodo split separa o texto pela parametro dado, no caso esta separando todo o arquivo por espaços.
+words   =   f . split (' ')
+#Contando quantas palavras
+num_words   =   len ( words )
+print (num_words)
+    
+#C:\\Users\\ADAMLINCOLNOLIVEIRAS\\Box Sync\\Billing - Sustain\\Sustain - Apresentação Semanal\\2019\\03 - Março\\27-03\\Planilhas- Graficos.xlsx
+#\"Abertos_Marco.csv\
+
+#with open(\"Abertos_Marco.csv\",  encoding=\"UTF-8\") as arquivo:
+#    ocorrencias = Counter(arquivo.read().split(\" \"))
+#
+#print(ocorrencias) # num de vezes que as palavras aparecem
